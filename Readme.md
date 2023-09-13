@@ -8,6 +8,7 @@ A simple CRUD (Create, Read, Update, Delete) API built using FastAPI and postgre
 - [Prerequisites](#prerequisites)
 - [Setup](#setup)
 - [API Endpoints](#api-endpoints)
+- [UML LINK](#uml-link)
 - [Documentation](#documentation)
 - [Known Limitations](#known-limitations)
 - [Deployment](#deployment)
@@ -47,6 +48,10 @@ cd your-repo
 3. PUT /items/{item_id}: Update an item by ID.
 4. DELETE /items/{item_id}: Delete an item by ID.
 
+## UML LINK
+
+https://shorturl.at/chlJT
+
 ## Documentation
 
 For detailed information on how to use the API, request/response formats, and sample usage, please check the DOCUMENTATION.md file in this repository.
@@ -76,6 +81,8 @@ To deploy this FastAPI application to a production server, follow these steps:
 
 This project is licensed under the MIT License. See the LICENSE file for details.abase credentials and API keys.
 5. Implement proper authentication and authorization mechanisms if required.
+
+
 
 
 
