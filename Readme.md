@@ -29,7 +29,7 @@ Before you begin, ensure you have the following installed:
 You can install the required Python packages using `pip install -r requirements.txt`.
 
 
-## Prerequisites
+## Setup
 
 1. git clone https://github.com/your-username/your-repo.git
 cd your-repo
@@ -51,6 +51,7 @@ cd your-repo
 ## UML LINK
 
 https://shorturl.at/chlJT
+
 
 ## Documentation
 
@@ -81,10 +82,4 @@ To deploy this FastAPI application to a production server, follow these steps:
 
 This project is licensed under the MIT License. See the LICENSE file for details.abase credentials and API keys.
 5. Implement proper authentication and authorization mechanisms if required.
-
-
-
-
-
-
 
