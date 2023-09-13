@@ -25,12 +25,10 @@ Before you begin, ensure you have the following installed:
 - Python 
 - Python packages: `fastapi`, `uvicorn`, `psycopg2`,`sqlalchemy`,`psycopg2-binary`
 
-You can install the required Python packages using `pip install -r requirements.txt`.:
+You can install the required Python packages using `pip install -r requirements.txt`.
 
-```bash
-pip install fastapi uvicorn 
 
-## Setup
+## Prerequisites
 
 1. git clone https://github.com/your-username/your-repo.git
 cd your-repo
@@ -43,15 +41,18 @@ cd your-repo
 
 
 ## API Endpoints
+
 POST /items/: Create a new item.
 GET /items/{item_id}: Retrieve an item by ID.
 PUT /items/{item_id}: Update an item by ID.
 DELETE /items/{item_id}: Delete an item by ID.
 
 ## Documentation
+
 For detailed information on how to use the API, request/response formats, and sample usage, please check the DOCUMENTATION.md file in this repository.
 
 ## Known Limitations
+
 This is a basic example and does not include advanced features like authentication or authorization.
 Error handling is minimal and should be improved for a production-ready application.
 The database schema is simple and may need to be extended for complex use cases
@@ -68,9 +69,11 @@ To deploy this FastAPI application to a production server, follow these steps:
 
 
 ## Contributions 
+
  contributions are welcome! If you would like to contribute to this project, please follow the standard GitHub fork and pull request workflow.
 
 ## License
+
 This project is licensed under the MIT License. See the LICENSE file for details.abase credentials and API keys.
 5. Implement proper authentication and authorization mechanisms if required.
 
