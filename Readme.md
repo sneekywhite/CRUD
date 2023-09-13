@@ -42,10 +42,10 @@ cd your-repo
 
 ## API Endpoints
 
-POST /items/: Create a new item.
-GET /items/{item_id}: Retrieve an item by ID.
-PUT /items/{item_id}: Update an item by ID.
-DELETE /items/{item_id}: Delete an item by ID.
+1. POST /items/: Create a new item.
+2. GET /items/{item_id}: Retrieve an item by ID.
+3. PUT /items/{item_id}: Update an item by ID.
+4. DELETE /items/{item_id}: Delete an item by ID.
 
 ## Documentation
 
