@@ -41,7 +41,7 @@ def deletePerson(user_id, db:Session = Depends(get_db)):
 
 
 @app.put('/api/{user_id}/', status_code=status.HTTP_200_OK, tags=['updatePerson'])
-def update_person(user_id, request:showPerson, ):db:Session = Depends(get_db)
+def update_person(user_id, request:showPerson, db:Session = Depends(get_db)):
     db.query(models.Person).filter(models.Person.user_id == user_id).update({'name':request.name})
     db.commit()
     return 'updated successfully'
