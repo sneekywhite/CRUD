@@ -12,3 +12,4 @@ sqlalchemy
 psycopg2-binary
 psycopg
 dotenv
+pip ==23.2.1
